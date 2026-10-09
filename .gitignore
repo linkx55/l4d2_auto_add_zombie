@@ -1,0 +1,31 @@
+# Build artifacts and runtime output
+*.log
+*.smx.bak
+*.bak
+*.bak-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local server files that must never be committed
+server.cfg
+cfg/server.cfg
+cfg/sourcemod/*.local.cfg
+
+# Key material (paranoia guard)
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
